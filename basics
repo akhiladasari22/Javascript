@@ -1,0 +1,160 @@
+//sample hello program
+//console.log("Hello World");
+// varaiables using let,  var and const 
+//let name = "john";
+//let productId = 101;
+//let isValid = true;
+//const id =10;
+//console.log(typeof name);
+//var one = 1;
+//console.log(one);// 1
+// let1one => not legal cannot define a varaibale starting with numerical 
+// let _one ==> start with numeric we need to use underscore (_) or dollar($)
+//console.log(name);// cannot access name before intilization
+//var name = "john";
+//let num = 12.99;// no float type 
+//console.log(typeof num);// number 
+//Number(BODMAS), increement and decreemnet methods
+//let x=1;
+//console.log(typeof x);
+//console.log(4-3*2+2);
+//console.log(x++);
+//console.log(x--);
+//console.log(--x);
+//Using string
+//let str = "I love JS";
+ //let strWithSingleQuotes = 'Ilove JS';
+//let mixQuotes = "I like\' JS World";
+ //console.log(typeof str);
+ //console.log(typeof strWithSingleQuotes);
+ //console.log(mixQuotes);
+ //console.log("2" +"2")// String concatination 
+ //console.log(2 +2);
+ // string interpolation 
+// let x = "2" ;
+//let y = "2" ;
+//console.log("FirstNumber: "+ x +" and second number: "+ y);
+//console.log(`FirstNumber: ${x} and second number: ${y}`);
+//let str = 'Hello \t JS';
+//console.log(str);
+//let str = String.raw `Hello \t JS`;
+//console.log(str);
+//using uppercase convertions 
+//let str1 = 'Hello';
+//console.log(str1.toUpperCase());
+//let num = '1234';
+//console.log(typeof num);//string
+//console.log(Number.parseInt(num));//string
+//console.log(typeof Number.parseInt(num));//1234 // convert string back to interger
+//Using float 
+//let flt = '1234.99';
+//console.log(typeof flt);
+//console.log(Number.parseFloat(flt));//string
+//console.log(typeof Number.parseInt(flt)); //1234
+//let num = 'abcd12';
+//console.log(Number.parseInt(num));//NaN
+//boolean --> null and undefined 
+//Boolean 
+//let bool = true;
+//console.log(typeof bool);// Boolean
+//Undefined type 
+//console.log(temp);
+//var temp =10;
+//objects
+//let x;
+//console.log(x);
+//let obj = {};
+//console.log(typeof obj);
+//let person ={
+//    firstName : 'Akhila',
+//    lastName : 'Dasari',
+ //   fullname:function(){
+ //   console.log(this.firstName + this.LastName);
+//}}//Akhila Dasari
+//console.log(person.firstName);// Akhila
+//console.log(person["lastName"]);// Dasari
+//person.fullname();// Akhila Dasari
+//Operations
+//let str = '1';
+//let num = 1;
+//console.log(str ===num);// Triple equal to (true)
+//console.log(str!== num);// not equals
+//console.log(str ==num);// double equals
+//console.log(str!= num);// true
+//Short hand forms
+//let num = 1;
+//num = num+2;
+//num += 2;
+//console.log(num);// 5
+//Terinary operator 
+//1== '1'? console.log("Type Check false"):console.log("Type Check True");// type check false
+//1 === "1"? console.log("Type Check false") : console.log("Type Check True");// type check true
+//fed operator
+//let str = "I Like JS";
+//let vals=[1,2,3,4,5,6];
+//let numvals =[...str];-> series of operator
+//console.log(vals);
+//let charValues = [...str];
+//console.log(charValues);
+//conditions
+//if(1 =="1"){
+  //  console.log("true");}// true
+//if("1"){
+ //   console.log("True");}// true
+//else{
+ //  console.log("False");// false 
+//}
+//let num1= 1.1;
+//let num2 = 1.3;
+//console.log(num1+num2); // 2.40000000
+// need to use tofixed() condition so it will pick 0- 20 
+//if ((num1+num2).toFixed(2) == 2.4){
+//    console.log("True");// true
+//}
+//using Switch case 
+ //let env = "dev";
+// if(env ==="dev"){
+//     console.log("dev");
+// }
+// else if(env == "QA")
+// {
+//     console.log("QA");
+// }
+// else if(env == "prod")
+// {
+//     console.log("Prod");
+// }
+// else{
+//     console.log("dev");
+// }
+//switch (env) {
+   // case "dev":
+       // console.log("Dev");
+        //break;
+       // case "QA":
+          //  console.log("QA");
+           // break;
+            //case "Prod":
+             //   console.log("prod");
+               // break;
+               // default:
+               //     console.log("stage");
+                    //break;
+//}
+//arrays for loop
+//let arr = [1,2,3,4,5,6];
+//let i = 6;
+//console.log(arr.length);//6
+//for (i =0; i<arr.length;)
+//while(i<arr.length)
+//{
+//console.log(arr[i]);// 1,2,3,4,5,6 
+//i++;
+//}
+//using let and var in arrays
+//var arr =[1,2,3]
+ //arr =[2,3,4]
+//console.log(arr);// [2,3,4]
+//let  arr =[1,2,3]
+ //arr =[2,3,4]
+//console.log(arr);//[2,3,4]
