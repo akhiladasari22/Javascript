@@ -1,0 +1,328 @@
+//let arr = [1,2,3];
+//for(const iterator of arr){
+    //console.log(iterator);
+//}
+//function addition (){
+ //   console.log(1+2);}
+//addition()
+//let sum = function add (){
+ //   console.log(2+3);
+//}
+//sum();
+//return 1+2;
+//}
+//console.log(addition());
+//function addition (num1,num2){
+//return num1+num2;
+//}
+//console.log(addition(5,6));
+//function addition(...num1){
+//let sum =0;
+//for (const iterator of num1){
+ //   sum += iterator
+//}
+//return sum;
+//}console.log(addition(1,2,3));
+//function greet(name = 'john'){
+ //   return `hello ${name}`;
+//}
+//console.log(greet());
+//console.log(greet('jim'));
+//(function addition(){
+ //   console.log(1+2);          //IIFE(Immediate invokable function experssion)
+//})();
+//(()=> console.log(1+2))();
+//(name)=>{
+//console.log(name);
+//}
+//function add (func){
+   // func();
+//}
+//add(() =>console.log('Hello'));
+// let boolValue = true;
+// function toggle (boolValue){
+//     boolValue = false;
+// }
+// console.log(boolValue);
+//let arr =[];
+//console.log(typeof arr);
+//let arr =[1,2,3,4];
+//arr.push(3,3,4,5);          //push
+//console.log(arr);
+//  let arr1 =[1, 'Hello', true, {name:'jim'}]
+//  for (const iterator of arr1) {
+//        console.log(iterator);
+// }
+//let arr2 = Array.of(1,2,3,4,5,6);
+//arr2.pop();                //pop 
+// console.log(arr2.pop());
+// console.log(arr2);
+//     console.log(arr2.length);
+// console.log(arr2.pop());
+// console.log(arr2.pop());
+// console.log(arr2.pop());
+//console.log(arr2.shift(0));   // shift operator
+//console.log(arr2.unshift(1,2,0)); //unshift operator
+//console.log(arr2.slice(0,3));   //slice operator
+//console.log(arr2.splice(0)); //splice operator
+//console.log(arr2);
+//console.log(arr2.splice(1,2,3,88));
+//console.log(arr2);
+//console.log(arr2.indexOf(20));
+//arr2.forEach(element => console.log(element)); //using arrow function foreach 
+// arr2.forEach(function(element){
+//   console.log(element);
+//}  ); //using foreach normal function  
+// let arr = [];
+// arr2.forEach(function(element){
+//   arr.push(element.toFixed(2))});
+//   console.log(arr);
+//console.log(arr2.filter(element =>element>5));
+// console.log(arr2.filter(function(element) {
+//   return element>5;
+// }));
+// greet();
+// function greet(){
+//   console.log("Hello");
+// }
+//'Use strict'
+// num = "1233";
+// console.log(num);
+//try{                                                   //Exceptions handling
+  // let arr =[1,2,3]
+  // throw {name : "CustomerException", message:"Customer ExceptionMessage"}
+  //} catch (error){
+   // console.log("Catch Block triggered");
+  //} finally{
+  //   console.log("finally block triggered");}
+
+  // function simpleCatch(){
+  //   let result;
+   //let x=10;
+  //   try{
+  //     result = x/10;
+  //     console.log("Catchblock executed");
+  //   }
+  //   catch(error){
+  //     console.log("Catch block triggered");
+  //     //console.log(error);
+  //   } finally{
+  //     console.log("finally block executed");
+  //   }
+  // } simpleCatch();
+  // let person = {
+  //   firstName :"John",
+  //   lastName : "Copper",
+  //   age: 21,
+  //   isAdult:function(){
+  //     return this.age>18;
+  //   }
+  // }
+  // console.log(person. __proto__);
+//   'Use Strict'
+//   class Person{
+//     firstName = "jim";
+//     lastName = "Copper";
+//     constructor(FirstName,lastName){
+//       this.FirstName = FirstName;
+//       this.LastNam = lastName;
+//     }
+//     get getfirstName(){
+//       return this.FirstName.toUpperCase();
+//     }
+//     set setFirstName(FirstName){
+//       this.FirstName = FirstName;
+//     } 
+//     fullName(){
+//       return this.firstName + this.lastName;
+//     }}
+//  let person1 = new Person("john","carter");
+//   console.log(person1);
+//   class Student extends Person{
+//     favsubject;
+//     constructor(firstName,lastName, favSubject){
+//       super(firstName , lastName);
+//       this.favsubject = favSubject;
+//     }
+//   } let firstStudent = new Student("Mary", "THomos", "Maths")
+//   console.log(firstStudent. firstName);
+//   console.log(firstStudent. fullName());
+//  let str = "madam";
+//  export function reverse (str){
+//   let revString = [];
+//   for(let index = str.length-1; index>=0; index--){
+//     revString.push(str. CharAt(index));
+//   }
+// console.log(revString.join(""));
+// return revString.join("");
+//  }
+//  export default function isPal(string1, revString){
+// return string1 === revString;
+//  }
+// let x = 'Laurel';
+// let y = 'Hardy';
+// let z = y;// hardy
+// y = x; //laurel
+// x = z; //hardy
+// console.log(x);
+//  salutation();
+// function  salutation(){
+//   console.log("Haydo!");
+// }
+// function areaoftriangle(height, base){
+//   return (base*height)/2
+//   }
+// console.log(areaoftriangle(2,4,8).toFixed(2));
+// let num =10;
+// let binary = num.toString(2);
+// console.log(binary);
+//  (or)
+// let decimalVal = 10;
+// let conv = 2
+// let remainderArray = [];
+// while (decimalVal >0){
+//   remainderArray.unshift(decimalVal %conv);
+//   decimalVal = Math.floor(decimalVal/conv);
+// }
+// console.log(remainderArray.join(""));
+// let firstArray = [1,10];
+//  let secondArray= [2,3,4,5,6,7,8,9];
+//  let Array = firstArray.Array/2;
+//  function ResultArray(a1,a2){
+// a1.splice(Array,0, ...secondArray);
+// return a1;
+//  }
+//  ResultArray(firstArray,secondArray);
+//  console.log(firstArray);
+// let array =[1, 'a', 'b', 0, 15];
+// function filter(l) {
+//   return l.filter(x => typeof x === 'number');
+// }
+// console.log(array.filter(element => parseInt(element)>=0))
+
+// class Circle{
+//   constructor(r){
+//     this.radius = r;
+//   }
+//   getArea(){
+// return Math.PI * Math.pow(this.radius, 2)
+//   }
+// getPerimeter(){
+//   return 2 * Math.PI * this.radius
+// }
+// }
+// let circle1 = new Circle(4.4);
+// console.log(circle1.getArea());
+// console.log(circle1.getPerimeter());
+// let person = {
+//  firstName : "jim",
+//   lastName :"Copper"
+// }
+// function returnkeys(person){
+//   return{
+//     keysArray:Object.keys(person),
+//     valuesArray:Object.values(person)
+//   };
+// }
+// console.log(returnkeys(person));
+// let arr =[1,2,3]
+// let arr2 = [1,2,3]
+// function areArraysEqual(arr,arr2){
+// if (arr.length!==arr2.length){
+//   return false;
+// }
+// else{
+//   return (arr.sort().join("")) ===(arr2.sort().join(""));
+// }}
+// console.log(areArraysEqual(arr,arr2));
+// function cube(number){
+// cubeValue = number **3;
+// return cubeValue;}
+// console.log(cube(3));
+// function getSumfromonetogiven(num){
+//   let sum = 0;
+//   while(num>0){
+//     sum+=num;
+//     num--;
+//   }
+// console.log(sum);
+// }getSumfromonetogiven(4);
+// let num = -25;
+// let num1 = 28;
+// console.log(Math.abs(num));
+// console.log(Math.abs(num1));
+// function absoluteSum (arr){
+//   let res =0;
+//   for(i=0; i<arr.length; i++){
+//     if(arr[i]<0){
+//     res +=(arr[i] * -1);
+//     continue;
+//   };
+//   res +=arr[i];
+// };
+// return res;
+// };
+// console.log(absoluteSum([2, -1, 4, 8, 10]));
+// let arr =[2, -1, 4, 8, 10]
+// let sum =0;
+// arr.map(element=> Math.abs(element)).forEach(element=>{
+//   sum+=element;
+// }) 
+// console.log(sum);
+// function Objecttoarray(obj){
+//   return Object.entries(obj);
+// }
+// console.log(Objecttoarray({a:1,b:2}));
+// let object = {a: 1,b: 2};
+// let arr =[];
+// for(const key in object){
+//   let innerarray =[];
+//   innerarray.push(key);
+//   innerarray.push(object[key]);
+//   arr.push(innerarray);
+// }
+// console.log(arr);
+// let arr = [24,5,9,18];
+// function getSecondLargest(arr){
+//   let max= 0;
+//   let secondMax= 0;
+//   for(let index= 0; index < arr.length; index++){
+//     if(arr[index]> max){
+//       secondMax =max;
+//       max=arr[index];
+//     }
+//         else if(arr[index]> secondMax){
+//   secondMax = arr[index];
+//   }
+//      }
+//   return  secondMax;
+// }
+// console.log(getSecondLargest[arr]);
+// let str = "Hello JS, You are too dynamic"
+// let arr =[]
+//   Array.from(str).forEach(element=> {
+//     arr.push(element.toLowerCase().charCodeAt() -96);
+
+//   })
+//   console.log(arr.join(" "));
+// let year = 1990;
+// function happyYear(year){
+// do{
+//   year++;
+//   while(HasDulipcates(year));
+//   return year;
+// }
+// function HasDulipcates(num){
+//   let year = String(num);
+//   for(let i =0; i< year.length-1;i++){
+//   for(let j=i+1; j< year.length; j++){
+//     if(year.charAt(i) === year.charAt(j)){
+//       return true;
+//     }
+//   }
+  
+// }}
+
+// console.log(happyYear(year));
+// while(new Set(string (++year)).size !=4){}
+// console.log(year);
