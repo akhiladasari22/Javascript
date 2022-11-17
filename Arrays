@@ -1,0 +1,29 @@
+let arr =[];
+//console.log(typeof arr);
+//let arr =[1,2,3,4];
+//arr.push(3,3,4,5);          //push
+//console.log(arr);
+//  let arr1 =[1, 'Hello', true, {name:'jim'}]
+//  for (const iterator of arr1) {
+//        console.log(iterator);
+// }
+//let arr2 = Array.of(1,2,3,4,5,6);
+//arr2.pop();                //pop 
+// console.log(arr2.pop());
+// console.log(arr2);
+//     console.log(arr2.length);
+// console.log(arr2.pop());
+// console.log(arr2.pop());
+// console.log(arr2.pop());
+//console.log(arr2.shift(0));   // shift operator
+//console.log(arr2.unshift(1,2,0)); //unshift operator
+//console.log(arr2.slice(0,3));   //slice operator
+//console.log(arr2.splice(0)); //splice operator
+//console.log(arr2);
+//console.log(arr2.splice(1,2,3,88));
+//console.log(arr2);
+//console.log(arr2.indexOf(20));
+//arr2.forEach(element => console.log(element)); //using arrow function foreach 
+// arr2.forEach(function(element){
+//   console.log(element);
+//}  ); //using foreach normal function  
