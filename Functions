@@ -40,3 +40,15 @@ function addition (){
 //     boolValue = false;
 // }
 // console.log(boolValue);
+let arr = [];
+// arr2.forEach(function(element){
+//   arr.push(element.toFixed(2))});
+//   console.log(arr);
+//console.log(arr2.filter(element =>element>5));
+// console.log(arr2.filter(function(element) {
+//   return element>5;
+// }));
+// greet();
+// function greet(){
+//   console.log("Hello");
+// }
