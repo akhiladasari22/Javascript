@@ -1,0 +1,42 @@
+function addition (){
+ //   console.log(1+2);}
+//addition()
+//let sum = function add (){
+ //   console.log(2+3);
+//}
+//sum();
+//return 1+2;
+//}
+//console.log(addition());
+//function addition (num1,num2){
+//return num1+num2;
+//}
+//console.log(addition(5,6));
+//function addition(...num1){
+//let sum =0;
+//for (const iterator of num1){
+ //   sum += iterator
+//}
+//return sum;
+//}console.log(addition(1,2,3));
+//function greet(name = 'john'){
+ //   return `hello ${name}`;
+//}
+//console.log(greet());
+//console.log(greet('jim'));
+//(function addition(){
+ //   console.log(1+2);          //IIFE(Immediate invokable function experssion)
+//})();
+//(()=> console.log(1+2))();
+//(name)=>{
+//console.log(name);
+//}
+//function add (func){
+   // func();
+//}
+//add(() =>console.log('Hello'));
+// let boolValue = true;
+// function toggle (boolValue){
+//     boolValue = false;
+// }
+// console.log(boolValue);
